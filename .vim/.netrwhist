@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/wflin/src/6.3r2/aeros/app/l7d'
+let g:netrw_dirhist_2='/home/wflin/src/Millau/aeros/app/auth2/ah_ext'
+let g:netrw_dirhist_3='/home/wflin/src/6.3r2/aeros/app/mDNS'
+let g:netrw_dirhist_4='/home/wflin/src/6.3r2/aeros/app/mDNS/mDNSResponder-320.5'
+let g:netrw_dirhist_5='/home/wflin/src/6.3r2/aeros/app/mDNS'
+let g:netrw_dirhist_6='/home/wflin/src/6.3r2/aeros/app'
+let g:netrw_dirhist_7='/home/wflin/src/6.3r2/aeros/app/bgd'
+let g:netrw_dirhist_8='/home/wflin/.vim/bundle/vim-easymotion'
+let g:netrw_dirhist_9='/home/wflin/.vim/bundle/vim-easymotion/doc'
