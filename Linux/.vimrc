@@ -13,7 +13,7 @@ Plugin 'tmhedberg/matchit'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'bling/vim-airline'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'morhetz/gruvbox'
 Plugin 'vim-scripts/AutoComplPop'
 Plugin 'dimasg/vim-mark'
 Plugin 'vim-scripts/The-NERD-tree'
@@ -73,8 +73,7 @@ set ruler " show where you are
 syntax enable
 set backspace=2
 set background=dark
-colorscheme solarized
-"let g:solarized_termcolors=256
+
 call togglebg#map("<F5>")
 
 "paste
@@ -120,3 +119,6 @@ au FileType qf call AdjustWindowHeight(3, 10)
 function! AdjustWindowHeight(minheight, maxheight)
   exe max([min([line("$"), a:maxheight]), a:minheight]) . "wincmd _"
 endfunction
+
+"vimdiff auto wrap
+autocmd FilterWritePre * if &diff | setlocal wrap< | endif
